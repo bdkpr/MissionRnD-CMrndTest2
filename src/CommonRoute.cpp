@@ -108,6 +108,7 @@ char * find_common_route(char * hacklist, char *codelist, int *cost){
 		c1 += (hacklist[k] - 'A' + 1);
 	}
 	*cost = c1;
+
 	return str;
 }
 
